@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>邮件系统 - 主页</title>
+    <link rel="stylesheet" href="../css/mdui.min.css">
+    <link rel="stylesheet" href="../css/mail.css">
+</head>
+
+<body class="mdui-appbar-with-toolbar mdui-theme-primary-indigo mdui-theme-accent-pink">
+
+    <header class="mdui-appbar mdui-appbar-fixed">
+        <div class="mdui-toolbar mdui-color-theme">
+            <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#drawer'}"><i class="mdui-icon material-icons"></i></span>
+            <span class="mdui-typo-title">主页</span>
+            <div class="mdui-toolbar-spacer"></div>
+            <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">&#xe5d4;</i></a>
+        </div>
+    </header>
+
+    <div class="mdui-drawer mdui-drawer-close" id="drawer">
+        <ul class="mdui-list">
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">&#xe168;</i>
+                <div class="mdui-list-item-content">收件箱</div>
+            </li>
+            <li class="mdui-list-item mdui-ripple">
+                <i class="mdui-list-item-icon mdui-icon material-icons">&#xe163;</i>
+                <div class="mdui-list-item-content">已发送</div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="mdui-container mail-container">
+        <div class="mdui-table-fluid">
+            <table class="mdui-table mdui-table-hoverable">
+                <thead>
+                    <tr>
+                        <th>发件人</th>
+                        <th>邮件标题</th>
+                        <th>发送时间</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mark</td>
+                        <td>你好，世界</td>
+                        <td>今天</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                        <td>你好，世界</td>
+                        <td>今天</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                        <td>你好，世界</td>
+                        <td>今天</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                        <td>你好，世界</td>
+                        <td>今天</td>
+                    </tr>
+                    <tr>
+                        <td>Mark</td>
+                        <td>你好，世界</td>
+                        <td>今天</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="../js/mdui.min.js"></script>
+</body>
+
+</html>
